@@ -10,7 +10,7 @@ echo "======================================================="
 echo "======================================================="
 echo "corre imagen del contenedor"
 docker run \
- --name dk_receivermq_sap \
+ --name dk_receivermq_sap  \
  --net=backend \
  -it dk_receivermq_sap
 echo "======================================================="
